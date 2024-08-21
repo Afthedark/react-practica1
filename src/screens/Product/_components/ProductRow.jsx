@@ -1,7 +1,4 @@
-// src/Product/_components/ProductRow.jsx
-import React from 'react';
-
-function ProductRow({ product }) {
+export default function ProductRow({ product }) {
   const name = product.stocked ? product.name :
     <span style={{ color: 'red' }}>
       {product.name}
@@ -14,5 +11,3 @@ function ProductRow({ product }) {
     </tr>
   );
 }
-
-export default ProductRow;

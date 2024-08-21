@@ -1,7 +1,4 @@
-// src/Default/_components/SearchBar.jsx
-import React from 'react';
-
-function SearchBar() {
+export default function SearchBar() {
   return (
     <form>
       <input type="text" placeholder="Buscar..." />
@@ -13,5 +10,3 @@ function SearchBar() {
     </form>
   );
 }
-
-export default SearchBar;

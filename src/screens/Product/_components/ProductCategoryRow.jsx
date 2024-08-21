@@ -1,7 +1,4 @@
-// src/Product/_components/ProductCategoryRow.jsx
-import React from 'react';
-
-function ProductCategoryRow({ category }) {
+export default function ProductCategoryRow({ category }) {
   return (
     <tr>
       <th colSpan="2">
@@ -10,5 +7,3 @@ function ProductCategoryRow({ category }) {
     </tr>
   );
 }
-
-export default ProductCategoryRow;
